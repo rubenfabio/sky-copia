@@ -1,3 +1,3 @@
 # sky-copia
 
-Tecnologias utilizadas HTML, CSS, JS, Tailwind.css e SCSS.
+Tecnologias utilizadas PHP ,sHTML, CSS, JS, Tailwind.css e SCSS.
