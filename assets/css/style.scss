@@ -50,7 +50,9 @@ header {
 .text-sky {
   color: $color1;
 }
-
+.text-wpp {
+  color: #28d368;
+}
 .icon-wpp i {
   color: #28d368;
   font-size: 35px;
@@ -144,6 +146,10 @@ footer {
 header,
 .fadein {
   animation: fade_in_show 0.5s;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 @keyframes fade_in_show {
   0% {
@@ -164,3 +170,17 @@ header,
     // padding-right: 15px;
   }
 }
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+// Developed by github.com/rubenfabio

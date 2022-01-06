@@ -1,3 +1,6 @@
+<button class="pulse bg-sky fixed z-50 bottom-[33px]  right-[33px] text-2xl font-bold text-white rounded-full flex place-content-center place-items-center"href="" style="width: 70px; height: 70px;" onclick="openModalFale()">
+    SKY
+</button>
 <!-- Footer -->
 <footer>
     <!-- Main Footer -->
@@ -53,6 +56,47 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal -->
+
+<div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal-2" >
+    <div class=" modal-2 animated fadeIn flex items-end justify-end min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
+        <div class=" fixed inset-0 transition-opacity">
+            <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
+        </div>
+        <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+        <div class="animated fadein inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+            <div class="bg-sky px-4 py-3 flex place-content-between">
+                <h2 class= "text-white text-2xl tracking-normal font-semibold leading-6">
+                    Fale Com a SKY
+                </h2>
+                <button type="button" class="rounded mr-2 text-white" onclick="openModalFale()"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-4">
+                
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <i class="text-wpp fa-2x fab fa-whatsapp"></i> 
+                    WhatsApp SKY
+                </a>
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <i class="text-sky fa-2x fas fa-phone"></i>
+                    Central de Vendas SKY
+                </a>
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <i class="text-sky fa-2x fas fa-phone"></i>
+                    Ligamos para você
+                </a>
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <i class="text-sky fa-2x fas fa-phone"></i>
+                    Central do cliente SKY
+                </a>    
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
 <div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal" >
     <div class=" modal-2 animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
         <div class=" fixed inset-0 transition-opacity">
@@ -86,10 +130,18 @@
         
         </div>
     </div>
-  </div>
+</div>
+
+<!-- End Modal -->
+
 <script>
     function toggleModal() {
         document.getElementById('modal').classList.toggle('hidden');
+        var element = document.body;
+        element.classList.toggle('open-modal');
+    }
+    function openModalFale(){
+        document.getElementById('modal-2').classList.toggle('hidden');
         var element = document.body;
         element.classList.toggle('open-modal');
     }
@@ -122,7 +174,7 @@
         el: ".swiper-pagination",
         },
     });
-    console.log("Desenvolvido por github/rubenfabio para WolMarketing");
+    console.log("Desenvolvido por Ruben Fabio github.com/rubenfabio para WolMarketing");
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>

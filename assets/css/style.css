@@ -66,6 +66,10 @@ header {
   color: #e30609;
 }
 
+.text-wpp {
+  color: #28d368;
+}
+
 .icon-wpp i {
   color: #28d368;
   font-size: 35px;
@@ -183,6 +187,8 @@ header,
 .fadein {
   -webkit-animation: fade_in_show 0.5s;
           animation: fade_in_show 0.5s;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 
 @-webkit-keyframes fade_in_show {
@@ -214,5 +220,32 @@ header,
 .open-modal {
   overflow-y: hidden;
   margin-right: 15px;
+}
+
+.pulse {
+  -webkit-animation: pulse-animation 2s infinite;
+          animation: pulse-animation 2s infinite;
+}
+
+@-webkit-keyframes pulse-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
 /*# sourceMappingURL=style.css.map */
