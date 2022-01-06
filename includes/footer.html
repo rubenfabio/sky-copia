@@ -59,17 +59,24 @@
             <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
         </div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
-        <div class="animated fadeInUp inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="animated fadeInUp inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
             <div class="px-4 py-3 flex place-content-between">
                 <img src="assets/images/SKY_TV_rede_credenciada.png" alt="">
                 <button type="button" class="rounded mr-2" onclick="toggleModal()"><i class="fas fa-times"></i></button>
             </div>
-            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center">
-                <h3 class="text-lg">
-                    <b>ESTAMOS QUASE LÁ!</b><br>
-                    ESCOLHA COMO PREFERE<br>
-                    CONTINUAR SUA COMPRA:
-                </h3>
+            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-3">
+                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/icons/sky_tv_ligue.png" alt="">
+                    LIGAR PARA A SKY
+                </a>
+                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/icons/sky_tv_whatsapp.png" alt="">
+                    CONTRATAR VIA WHATSAPP
+                </a>
+                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/icons/sky_tv_ligue.png" alt="">
+                    RECEBER UMA LIGAÇÃO
+                </a>    
             </div>
         
         </div>
@@ -80,3 +87,5 @@
     document.getElementById('modal').classList.toggle('hidden')
     }
 </script>
+
+<!-- Developed by Ruben Fabio github.com/rubenfabio -->
