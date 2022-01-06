@@ -11,8 +11,20 @@ main {
   background-color: #e30609;
 }
 
+.bg-sky-grey-100 {
+  background-color: #ebebeb;
+}
+
 .bg-sky-grey {
   background-color: #424242;
+}
+
+.bg-navbar {
+  background-color: #e30609;
+}
+
+.bg-header {
+  background-color: #f2f2f2;
 }
 
 .container {
@@ -47,14 +59,6 @@ header {
 
 .text-sky {
   color: #e30609;
-}
-
-.bg-navbar {
-  background-color: #e30609;
-}
-
-.bg-header {
-  background-color: #f2f2f2;
 }
 
 .icon-wpp i {

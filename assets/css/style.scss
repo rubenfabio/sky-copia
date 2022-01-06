@@ -9,11 +9,21 @@ html {
 main {
   min-height: 100vh;
 }
+
 .bg-sky {
   background-color: $color1;
 }
+.bg-sky-grey-100 {
+  background-color: #ebebeb;
+}
 .bg-sky-grey {
   background-color: $color2;
+}
+.bg-navbar {
+  background-color: $color1;
+}
+.bg-header {
+  background-color: #f2f2f2;
 }
 // HEADER
 .container {
@@ -36,12 +46,7 @@ header {
 .text-sky {
   color: $color1;
 }
-.bg-navbar {
-  background-color: $color1;
-}
-.bg-header {
-  background-color: #f2f2f2;
-}
+
 .icon-wpp i {
   color: #28d368;
   font-size: 35px;

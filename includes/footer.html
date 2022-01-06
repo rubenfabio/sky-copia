@@ -54,8 +54,8 @@
     </div>
 </footer>
 <div class="fade fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal" >
-    <div class="animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
-        <div class="fixed inset-0 transition-opacity">
+    <div class=" modal-2 animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
+        <div class=" fixed inset-0 transition-opacity">
             <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
         </div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
@@ -64,7 +64,12 @@
                 <img src="assets/images/SKY_TV_rede_credenciada.png" alt="">
                 <button type="button" class="rounded mr-2" onclick="toggleModal()"><i class="fas fa-times"></i></button>
             </div>
-            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-3">
+            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-4">
+                <h2 class="text-2xl tracking-normal font-semibold text-gray-500 leading-6">
+                    ESTAMOS QUASE LÁ!<br>
+                    ESCOLHA COMO PREFERE<br>
+                    CONTINUAR SUA COMPRA:<br>
+                </h2>
                 <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
                     <img src="assets/images/icons/sky_tv_ligue.png" alt="">
                     LIGAR PARA A SKY
@@ -84,8 +89,32 @@
   </div>
 <script>
     function toggleModal() {
-    document.getElementById('modal').classList.toggle('hidden')
+    document.getElementById('modal').classList.toggle('hidden');
     }
+</script>
+<script>
+    function showVermaisdestaques(){
+        document.getElementById('vermaisdestaques').classList.toggle('hidden');
+    }
+    function darktheme() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    var swiper = new Swiper(".navigationSlider", {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+        },
+        loop: true,
+        pagination: {
+        el: ".swiper-pagination",
+        },
+    });
+    console.log("Desenvolvido por github/rubenfabio para WolMarketing");
 </script>
 
 <!-- Developed by Ruben Fabio github.com/rubenfabio -->
