@@ -53,13 +53,13 @@
         </div>
     </div>
 </footer>
-<div class="fade fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal" >
+<div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal" >
     <div class=" modal-2 animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
         <div class=" fixed inset-0 transition-opacity">
             <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
         </div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
-        <div class="animated fadeInUp inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="animated fadein inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
             <div class="px-4 py-3 flex place-content-between">
                 <img src="assets/images/SKY_TV_rede_credenciada.png" alt="">
                 <button type="button" class="rounded mr-2" onclick="toggleModal()"><i class="fas fa-times"></i></button>
@@ -89,12 +89,20 @@
   </div>
 <script>
     function toggleModal() {
-    document.getElementById('modal').classList.toggle('hidden');
+        document.getElementById('modal').classList.toggle('hidden');
+        var element = document.body;
+        element.classList.toggle('open-modal');
     }
 </script>
 <script>
     function showVermaisdestaques(){
         document.getElementById('vermaisdestaques').classList.toggle('hidden');
+    }
+    function togglemenucontato(){
+        document.getElementById('menu-contato').classList.toggle('hidden');
+    }
+    function togglemenu(){
+        document.getElementById('menu').classList.toggle('hidden');
     }
     function darktheme() {
     var element = document.body;
@@ -115,6 +123,25 @@
         },
     });
     console.log("Desenvolvido por github/rubenfabio para WolMarketing");
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+    setNavigation();
+    });
+
+    function setNavigation() {
+        var path = window.location.pathname;
+        path = path.replace(/\/$/, "");
+        path = decodeURIComponent(path);
+
+        $(".nav a").each(function () {
+            var href = $(this).attr('href');
+            if (path.substring(0, href.length) === href) {
+                $(this).closest('li').addClass('active');
+            }
+        });
+    }
 </script>
 
 <!-- Developed by Ruben Fabio github.com/rubenfabio -->

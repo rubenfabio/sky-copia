@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 767px) {
+  .nav-item a {
+    padding: 5px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

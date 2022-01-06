@@ -1,6 +1,10 @@
+@import url(responsive.css);
 $color1: #e30609;
 $color2: #424242;
 
+:root {
+  --swiper-theme-color: white !important;
+}
 body,
 html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -131,5 +135,32 @@ footer {
     display: flex;
     place-items: center;
     max-width: 1200px;
+  }
+}
+
+#menu,
+#menu-contato,
+.bg-navbar,
+header,
+.fadein {
+  animation: fade_in_show 0.5s;
+}
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(100);
+  }
+}
+
+.open-modal {
+  overflow-y: hidden;
+  margin-right: 15px;
+  header {
+    // padding-right: 15px;
   }
 }

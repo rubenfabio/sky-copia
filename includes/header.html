@@ -1,11 +1,11 @@
 <!-- Developed by Ruben Fabio github.com/rubenfabio -->
 <header class="w-full z-50">
         <div class="w-full bg-header py-4">
-            <div class="max-w-7xl m-auto flex flex-row place-items-center">
-                <div class="w-1/3">
+            <div class="max-w-7xl m-auto flex flex-col md:flex-row place-items-center">
+                <div class="md:w-1/3 md:p-0 p-3">
                     <img src="assets\images\logo-sky-2.png" alt="">
                 </div>
-                <ul class="flex flex-row">
+                <ul id="menu-contato"class="flex-col md:flex-row place-items-start md:place-items-center gap-y-3 md:gap-y-0 md:flex hidden">
                     <li class="flex flex-row place-content-center place-items-center px-2">
                         <div class="icon-telefone"></div>
                         <div class="flex flex-col px-2 text-sky">
@@ -39,8 +39,18 @@
         </div>
         <div class="bg-navbar">
             <div class="max-w-7xl m-auto">
-                <nav>
-                    <ul class="flex flex-row">
+                <div class="flex lg:hidden text-lg place-content-between px-5">
+                    <button type="button" class=" text-white hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none" onclick="togglemenu()">
+                        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                            <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                        </svg>
+                    </button>
+                    <button type="button" class=" text-white hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none" onclick="togglemenucontato()">
+                        Contato
+                    </button>
+                </div>
+                <nav id="menu"class="nav md:flex hidden">
+                    <ul class="flex flex-col md:flex-row">
                         <li class="nav-item">
                             <a class="text-white" href="index.php">HOME</a>
                         </li>
@@ -50,7 +60,7 @@
                         <li class="nav-item">
                             <a class="text-white" href="SKY-TV-PRE-PAGO.php">SKY PRÉ-PAGO</a>
                         </li>
-                        <li class="nav-item" style="width: 192px;">
+                        <li class="nav-item m-auto" style="width: 192px;">
                             <a class="text-white" href="SKY-Banda-Larga.php">SKY BANDA LARGA</a>
                         </li>
                     </ul>

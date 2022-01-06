@@ -85,10 +85,10 @@
        <section>
            <div class="container">
 
-                <div class="px5 flex w-full py-10">
+                <div class="px-5 flex w-full py-10">
                    <h1 class="w-full text-2xl text-center font-semibold">Se você já possui alguma antena, adquira os equipamentos SKY</h1>
                </div>
-               <div class="px5 flex w-full">
+               <div class="px-5 flex w-full">
 
                     <div class="flex flex-col w-full md:w-4/12 ml-auto place-items-center text-center gap-y-8">
                         <div>
@@ -118,10 +118,10 @@
                </div>
 
 
-               <div class="px5 flex w-full py-10">
+               <div class="px-5 flex w-full py-10">
                    <h1 class="w-full text-2xl text-center font-semibold">Se você já possui alguma antena, adquira os equipamentos SKY</h1>
                </div>
-               <div class="px5 flex w-full">
+               <div class="px-5 flex w-full">
                     <div class="flex flex-col w-full md:w-4/12 ml-auto place-items-center text-center gap-y-8">
                         <div>
                             <img class="m-auto" src="assets/images/sky_tv_kit_hd.png" alt="">

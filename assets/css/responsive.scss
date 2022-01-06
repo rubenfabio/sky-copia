@@ -1,7 +1,10 @@
 @media screen and (max-width: 767px) {
-    
+  .nav-item {
+    a {
+      padding: 5px !important;
+    }
+  }
 }
 
 @media screen and (max-width: 320px) {
-    
 }
