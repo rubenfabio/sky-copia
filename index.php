@@ -38,7 +38,7 @@
         <?php include("includes/slider.html")?>
 
         <section id="1">
-            <div class="container">
+            <div class="container px-5">
                 <div class="column gap-y-7" style="text-align:center">
                     <h2 class="text-sky text-3xl font-semibold">ESCOLHA SEU PLANO PÓS PAGO SKY</h2>
                     <div>
@@ -352,8 +352,15 @@
        </section>
        <section class="bg-sky-grey-100">
             <div class="container">
-                <div class="flex-col flex px-5 py-14">
+                <div class="flex-col flex px-5 py-14 gap-y-5">
                     <h2 class="font-semibold text-3xl">DESTAQUES <i class="fa fa-angle-double-right" aria-hidden="true"></i></h2>
+
+                    <div class="md:w-2/12 w-6/12 bg-post" onclick="toggleModal3()">
+                        <div class="w-full h-full post hvr-sweep-to-top">
+                            
+                            SKY TV - Pré Pago
+                        </div>
+                    </div>
                     <div class="flex place-content-center">
                     <button class="px-4 border ring border ring-gray-500  ring-offset-0" onclick="showVermaisdestaques()" >VER MAIS</button>
                     </div>

@@ -81,7 +81,7 @@
                                     <p class="text-xs">CURTA SÉRIES, FILMES E JOGOS COM A INTERNET SKY</p>
                                 </div>
                            </div>
-                            <a class="cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
+                            <a class="place-content-center cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
                                     Eu quero
                             </a>
                         </div>
@@ -115,7 +115,7 @@
                                     <p class="text-xs">CURTA SÉRIES, FILMES E JOGOS COM A INTERNET SKY</p>
                                 </div>
                            </div>
-                            <a class="cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
+                            <a class=" place-content-center cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
                                     Eu quero
                             </a>
                         </div>
@@ -151,7 +151,7 @@
                                     <p class="text-xs">CURTA SÉRIES, FILMES E JOGOS COM A INTERNET SKY</p>
                                 </div>
                            </div>
-                            <a class="cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
+                            <a class="place-content-center cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
                                     Eu quero
                             </a>
                         </div>
@@ -185,7 +185,7 @@
                                     <p class="text-xs">CURTA SÉRIES, FILMES E JOGOS COM A INTERNET SKY</p>
                                 </div>
                            </div>
-                            <a class="cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
+                            <a class="place-content-center cursor-pointer flex md:block bg-sky py-2 px-20 text-center uppercase text-white font-bold text-2xl hover:grayscale-[30%]" onclick="toggleModal()">
                                     Eu quero
                             </a>
                         </div>

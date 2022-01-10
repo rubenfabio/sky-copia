@@ -10,6 +10,11 @@ function toggleModal2() {
   var element = document.body;
   element.classList.toggle('open-modal');
 }
+function toggleModal3() {
+  document.getElementById('modal-4').classList.toggle('hidden');
+  var element = document.body;
+  element.classList.toggle('open-modal');
+}
 function openModalFale() {
   document.getElementById('modal-2').classList.toggle('hidden');
   var element = document.body;

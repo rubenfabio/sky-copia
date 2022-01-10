@@ -174,6 +174,13 @@
                 </div>
             </div>
        </section>
+       <section class="bg-sky-grey-100">
+            <div class="container">
+                <div class="py-5 px-10">
+                    <p class="text-xs">Os valores anunciados no site são válidos para compras efetuadas via cartão de crédito. Consulte preços para demais formas de pagamento. Oferta válida de 01/03/2021 até 31/03/2021.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include("includes/footer.html") ?>
