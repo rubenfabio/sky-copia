@@ -16,6 +16,7 @@
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="200" name="widthImagem">
     <meta property="og:image:height" content="200" name="heightImagem">
+    <link rel="shortcut icon" href="assets\images\logo-ico.png" />
     <meta name="keywords" content="SKY, SKY TV, SKY HDTV, SKY HD, SKY HD TV, SKY DIGITAL, SKY TV DIGITAL, PLANOS SKY, COMBO SKY, Central de vendas SKY, Central de vendas SKY TV, TV POR ASSINATURA,  SKY TV com desconto, 0800 850 2021">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -87,7 +88,7 @@
                         </div> -->
                     </div>
                     <div class="w-full md:w-5/12 md:px-5">
-                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="" srcset="">
+                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="Assine SKY - SKY TV" srcset="">
                     </div>
                 </div>
             </div>
@@ -118,21 +119,21 @@
 
                    <div class="w-full md:grid md:grid-cols-3 gap-x-20">
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/mcafee.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/mcafee.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 McAfee Anti-vírus
                             </h3>
                             <p class="text-grey-700 italic ">O McAfee é mais do que apenas uma proteção contra vírus, é mais tranquilidade para navegar na internet!</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/skeelo.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/skeelo.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Leitura onde e quando você quiser
                             </h3>
                             <p class="text-grey-700 italic ">Com a plataforma de leitura Skeelo, você tem acesso aos títulos mais vendidos nas livrarias diretamente do seu celular.</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/playkids.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/playkids.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Ensino e diversão na palma da mão
                             </h3>

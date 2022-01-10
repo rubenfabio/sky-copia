@@ -6,7 +6,7 @@
     <!-- Main Footer -->
     <div class="main-footer flex-col md:flex-row px-6 py-16 gap-y-5 md:gap-y-0 md:px-0">
         <div class="md:w-2/12 w-full place-content-center place-items-center">
-            <img class="" src="assets/images/sky_branco-2.png" alt="">
+            <img class="" src="assets/images/sky_branco-2.png" alt="Assine SKY - SKY TV">
             <div class="important-links">
                 <a href="#">Politica de Privacidade</a>
                 <span>|</span>
@@ -61,7 +61,7 @@
 
 <div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal-2" >
     <div class=" modal-2 animated fadeIn flex items-end justify-end min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
-        <div class=" fixed inset-0 transition-opacity">
+        <div class=" fixed inset-0 transition-opacity" onclick="openModalFale()">
             <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
         </div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
@@ -72,21 +72,21 @@
                 </h2>
                 <button type="button" class="rounded mr-2 text-white" onclick="openModalFale()"><i class="fas fa-times"></i></button>
             </div>
-            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-4">
+            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y">
                 
-                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-start place-items-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
                     <i class="text-wpp fa-2x fab fa-whatsapp"></i> 
                     WhatsApp SKY
                 </a>
-                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-start place-items-center" href="tel:08008502020" >
                     <i class="text-sky fa-2x fas fa-phone"></i>
                     Central de Vendas SKY
                 </a>
-                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-start place-items-center" href="#" onclick="openModalContato()">
                     <i class="text-sky fa-2x fas fa-phone"></i>
                     Ligamos para você
                 </a>
-                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                <a class="flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-start place-items-center" href="tel:10611" >
                     <i class="text-sky fa-2x fas fa-phone"></i>
                     Central do cliente SKY
                 </a>    
@@ -99,13 +99,13 @@
 
 <div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal" >
     <div class=" modal-2 animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
-        <div class=" fixed inset-0 transition-opacity">
+        <div class=" fixed inset-0 transition-opacity" onclick="toggleModal()">
             <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
         </div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
         <div class="animated fadein inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
             <div class="px-4 py-3 flex place-content-between">
-                <img src="assets/images/SKY_TV_rede_credenciada.png" alt="">
+                <img src="assets/images/SKY_TV_rede_credenciada.png" alt="Assine SKY - SKY TV">
                 <button type="button" class="rounded mr-2" onclick="toggleModal()"><i class="fas fa-times"></i></button>
             </div>
             <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-4">
@@ -114,16 +114,16 @@
                     ESCOLHA COMO PREFERE<br>
                     CONTINUAR SUA COMPRA:<br>
                 </h2>
-                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/images/icons/sky_tv_ligue.png" alt="">
+                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="tel:08008502020" >
+                    <img src="assets/images/icons/sky_tv_ligue.png" alt="Assine SKY - SKY TV">
                     LIGAR PARA A SKY
                 </a>
                 <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/images/icons/sky_tv_whatsapp.png" alt="">
+                    <img src="assets/images/icons/sky_tv_whatsapp.png" alt="Assine SKY - SKY TV">
                     CONTRATAR VIA WHATSAPP
                 </a>
-                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/images/icons/sky_tv_ligue.png" alt="">
+                <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center cursor-pointer" onclick="openModalContato2()">
+                    <img src="assets/images/icons/sky_tv_ligue.png" alt="Assine SKY - SKY TV">
                     RECEBER UMA LIGAÇÃO
                 </a>    
             </div>
@@ -132,68 +132,44 @@
     </div>
 </div>
 
+<div class="fadein fixed z-50 overflow-y-auto top-0 w-full left-0 hidden" id="modal-3" >
+    <div class=" modal-2 animated fadeIn flex items-start justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:p-0">
+        <div class=" fixed inset-0 transition-opacity" onclick="toggleModal2()">
+            <div class="absolute inset-0 bg-gray-900 opacity-[55%]" style="background-color: #333; "></div>
+        </div>
+        <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+        <div class="animated fadein inline-block  bg-white align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+            <div class="px-4 py-3 flex place-content-between">
+                <img src="assets/images/SKY_TV_rede_credenciada.png" alt="Assine SKY - SKY TV">
+                <button type="button" class="rounded mr-2" onclick="toggleModal2()"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4 text-center flex place-items-center place-content-center flex-col gap-y-4">
+                <h2 class="text-lg tracking-normal font-semibold text-gray-700 leading-6">
+                    PREENCHA SEUS DADOS E A SKY LIGARÁ PARA VOCÊ AGORA, SEM NENHUM CUSTO
+                </h2>
+
+                <form action="enviar-form.php" method="post" class="flex gap-y-3 flex-col w-full text-lg px-5 place-content-center place-items-center">
+                    <input type="text" name="nome" id="nome" placeholder="NOME" class="text-lg w-full border">
+                    <input type="tel" name="phone" id="phone" placeholder="DDD + TELEFONE" class="w-full text-lg border">
+                    <button type="submit" class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center text-white" style="background-color: red;">CONTINUAR</button>
+                </form>
+              
+                <!-- <a class="bg-sky hover:grayscale-[50%]  text-white flex px-6 py-3 rounded-3xl gap-x-2 w-80 place-content-center" href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/icons/sky_tv_ligue.png" alt="Assine SKY - SKY TV">
+                    RECEBER UMA LIGAÇÃO
+                </a>     -->
+            </div>
+        
+        </div>
+    </div>
+</div>
 <!-- End Modal -->
-
-<script>
-    function toggleModal() {
-        document.getElementById('modal').classList.toggle('hidden');
-        var element = document.body;
-        element.classList.toggle('open-modal');
-    }
-    function openModalFale(){
-        document.getElementById('modal-2').classList.toggle('hidden');
-        var element = document.body;
-        element.classList.toggle('open-modal');
-    }
-</script>
-<script>
-    function showVermaisdestaques(){
-        document.getElementById('vermaisdestaques').classList.toggle('hidden');
-    }
-    function togglemenucontato(){
-        document.getElementById('menu-contato').classList.toggle('hidden');
-    }
-    function togglemenu(){
-        document.getElementById('menu').classList.toggle('hidden');
-    }
-    function darktheme() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-    }
-    var swiper = new Swiper(".navigationSlider", {
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: true,
-        },
-        navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-        },
-        loop: true,
-        pagination: {
-        el: ".swiper-pagination",
-        },
-    });
-    console.log("Desenvolvido por Ruben Fabio github.com/rubenfabio para WolMarketing");
-</script>
+<script src="assets/js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script>
-    $(function () {
-    setNavigation();
-    });
+<script src="assets/js/jquery.js"></script>
 
-    function setNavigation() {
-        var path = window.location.pathname;
-        path = path.replace(/\/$/, "");
-        path = decodeURIComponent(path);
 
-        $(".nav a").each(function () {
-            var href = $(this).attr('href');
-            if (path.substring(0, href.length) === href) {
-                $(this).closest('li').addClass('active');
-            }
-        });
-    }
-</script>
+
 
 <!-- Developed by Ruben Fabio github.com/rubenfabio -->
+

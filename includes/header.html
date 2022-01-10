@@ -2,66 +2,74 @@
 <header class="w-full z-50">
         <div class="w-full bg-header py-4">
             <div class="max-w-7xl m-auto flex flex-col md:flex-row place-items-center">
-                <div class="md:w-1/3 md:p-0 p-3">
-                    <img src="assets\images\logo-sky-2.png" alt="">
+                <div class="lg:w-1/3 md:w-1/5 md:p-0 p-3">
+                    <img src="assets\images\logo-sky-2.png" alt="Assine SKY - SKY TV">
                 </div>
                 <ul id="menu-contato"class="flex flex-col md:flex-row place-items-start md:place-items-center gap-y-3 md:gap-y-0 md:flex hidden">
                     <li class="flex flex-row place-content-center place-items-center px-2">
-                        <div class="icon-telefone"></div>
-                        <div class="flex flex-col px-2 text-sky">
-                            <span class="font-bold text-xs ">CENTRAL DE VENDAS SKY</span>
-                            <span class="font-semibold text-lg">0800 850 2020</span>
-                        </div>
+                        <a href="tel:08008502020" class="flex">
+                            <div class="icon-telefone"></div>
+                            <div class="flex flex-col px-2 text-sky">
+                                <span class="font-bold text-xs ">CENTRAL DE VENDAS SKY</span>
+                                <span class="font-semibold lg:text-lg">0800 850 2020</span>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex flex-row place-content-center place-items-center px-2">
-                        <div class="icon-wpp"><i class="fab fa-whatsapp"></i></div>
-                        <div class="flex flex-col px-2 text-sky">
-                            <span class="font-bold text-xs ">CONTRATE SKY</span>
-                            <span class="font-semibold text-lg">VIA WHATSAPP</span>
-                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=554121413024&text=Ol%C3%A1,%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20SKY" class="flex" target="_blank" rel="noopener noreferrer">
+                            <div class="icon-wpp"><i class="fab fa-whatsapp"></i></div>
+                            <div class="flex flex-col px-2 text-sky">
+                                <span class="font-bold text-xs ">CONTRATE SKY</span>
+                                <span class="font-semibold lg:text-lg">VIA WHATSAPP</span>
+                            </div>
+                        </a>
                     </li>
                     <li class="flex flex-row place-content-center place-items-center px-2">
-                        <div class="icon-telefone" style="background-position: bottom;"></div>
-                        <div class="flex flex-col px-2 text-sky">
-                            <span class="font-bold text-xs ">NÓS LIGAMOS</span>
-                            <span class="font-semibold text-lg">PRA VOCÊ</span>
-                        </div>
+                        <button class="flex" onclick="openModalContatoNavbar()">
+                            <div class="icon-telefone" style="background-position: bottom;"></div>
+                            <div class="flex flex-col px-2 text-sky">
+                                <span class="font-bold text-xs ">NÓS LIGAMOS</span>
+                                <span class="font-semibold lg:text-lg">PRA VOCÊ</span>
+                            </div>
+                        </button>
                     </li>
                     <li class="flex flex-row place-content-center place-items-center px-2">
-                        <div class="icon-telefone"></div>
-                        <div class="flex flex-col px-2 text-sky">
-                            <span class="font-bold text-xs ">CENTRAL DE SUPORTE SKY</span>
-                            <span class="font-semibold text-lg">106 11</span>
-                        </div>
+                        <a class="flex" href="tel:10611">
+                            <div class="icon-telefone"></div>
+                            <div class="flex flex-col px-2 text-sky">
+                                <span class="font-bold text-xs ">CENTRAL DE SUPORTE SKY</span>
+                                <span class="font-semibold lg:text-lg">106 11</span>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="bg-navbar">
             <div class="max-w-7xl m-auto">
-                <div class="flex lg:hidden text-lg place-content-between px-5">
-                    <button type="button" class=" text-white hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none" onclick="togglemenu()">
+                <div class="flex md:hidden text-lg place-content-between px-5">
+                    <button type="button" class=" text-white  focus:outline-none" onclick="togglemenu()">
                         <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                             <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
                         </svg>
                     </button>
-                    <button type="button" class=" text-white hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none" onclick="togglemenucontato()">
+                    <button type="button" class=" text-white  focus:outline-none" onclick="togglemenucontato()">
                         Contato
                     </button>
                 </div>
                 <nav id="menu"class="nav md:flex hidden">
                     <ul class="flex flex-col md:flex-row">
                         <li class="nav-item">
-                            <a class="text-white" href="index.php">HOME</a>
+                            <a class="text-white" href="index.php" target="/index.php">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-white" href="SKY-TV.php">SKY PÓS-PAGO</a>
+                            <a class="text-white" href="SKY-TV.php" target="/SKY-TV.php">SKY PÓS-PAGO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-white" href="SKY-TV-PRE-PAGO.php">SKY PRÉ-PAGO</a>
+                            <a class="text-white" href="SKY-TV-PRE-PAGO.php" target="/SKY-TV-PRE-PAGO.php">SKY PRÉ-PAGO</a>
                         </li>
-                        <li class="nav-item m-auto" style="width: 192px;">
-                            <a class="text-white" href="SKY-Banda-Larga.php">SKY BANDA LARGA</a>
+                        <li class="nav-item" style="min-width: 192px;">
+                            <a class="text-white" href="SKY-Banda-Larga.php" target="/SKY-Banda-Larga.php">SKY BANDA LARGA</a>
                         </li>
                     </ul>
                 </nav>

@@ -18,6 +18,7 @@
     <meta property="og:image:height" content="200" name="heightImagem">
     <meta name="keywords" content="SKY, SKY TV, SKY HDTV, SKY HD, SKY HD TV, SKY DIGITAL, SKY TV DIGITAL, PLANOS SKY, COMBO SKY, Central de vendas SKY, Central de vendas SKY TV, TV POR ASSINATURA,  SKY TV com desconto, 0800 850 2021">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="shortcut icon" href="assets\images\logo-ico.png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -83,11 +84,11 @@
                             Aproveite também milhares de filmes e series no <span class="font-bold">SKY PLAY</span> para você assistir quando e onde quiser.
                         </p>
                         <div class="flex place-content-end" >
-                            <a class="flex place-items-center text-lg text-sky hover:grayscale-[60%]" href="">Saiba Mais <i class="fas fa-arrow-right px-2"></i></a>
+                            <a class="flex place-items-center text-lg text-sky hover:grayscale-[60%]" href="SKY-TV.php">Saiba Mais <i class="fas fa-arrow-right px-2"></i></a>
                         </div>
                     </div>
                     <div class="w-full md:w-5/12 md:px-5">
-                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="" srcset="">
+                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="Assine SKY - SKY TV" srcset="">
                     </div>
                 </div>
             </div>
@@ -102,7 +103,7 @@
 
                     <div class="w-full md:w-6/12 flex-col px-5 md:px-10">
                         <figure class="flex place-content-center"> 
-                            <img src="assets/images/icon_programacao.png" alt="">
+                            <img src="assets/images/icon_programacao.png" alt="Assine SKY - SKY TV">
                         </figure>
                         <h2 class="text-center text-2xl py-4 font-semibold">OS MELHORES CANAIS ESTÃO NA SUA SKY TV</h2>
                         <p>São mais de 180 canais de filmes, esportes, documentários e variedades que mais agradam você e sua família.</p>
@@ -110,7 +111,7 @@
 
                     <div class="w-full md:w-6/12 flex-col px-5 md:px-10">
                         <figure class="flex place-content-center"> 
-                            <img src="assets/images/icon_hd.png" alt="">
+                            <img src="assets/images/icon_hd.png" alt="Assine SKY - SKY TV">
                         </figure>
                         <h2 class="text-center text-2xl py-4 font-semibold">IMAGEM EM ALTA DEFINIÇÃO</h2>
                         <p>Som e imagem em qualidade HD para você aproveitar muito mais sua programação SKY TV.</p>
@@ -119,7 +120,7 @@
                     </div>
                     <div class="w-full md:w-6/12 flex-col px-5 md:px-10">
                         <figure class="flex place-content-center"> 
-                            <img src="assets/images/icon_play.png" alt="">
+                            <img src="assets/images/icon_play.png" alt="Assine SKY - SKY TV">
                         </figure>
                         <h2 class="text-center text-2xl py-4 font-semibold">ASSISTA SUA PROGRAMAÇÃO EM QUALQUER HORA E EM QUALQUER LUGAR</h2>
                         <p>Assista quando e onde quiser na sua TV, tablet, smartphone e notebook com SKY PLAY.</p>
@@ -127,7 +128,7 @@
 
                     <div class="w-full md:w-6/12 flex-col px-5 md:px-10">
                         <figure class="flex place-content-center"> 
-                            <img src="assets/images/icon_rec.png" alt="">
+                            <img src="assets/images/icon_rec.png" alt="Assine SKY - SKY TV">
                         </figure>
                         <h2 class="text-center text-2xl py-4 font-semibold">SKY GRAVADOR</h2>
                         <p>Não vai conseguir assistir aquele programa tão esperado? Fique tranquilo! com a SKY TV você pode gravar seu programa preferido e assistir a hora que desejar.</p>
@@ -141,7 +142,7 @@
             <div class="container">
                 <div class="flex-col py-14 px-5 md:px-0 md:flex-row flex">
                     <div class="w-full md:w-5/12 md:px-5">
-                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="" srcset="">
+                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="Assine SKY - SKY TV" srcset="">
                     </div>
                     <div class="w-full md:w-7/12 md:px-10">
                         <h2 class="text-sky text-3xl font-semibold py-4">
@@ -150,9 +151,9 @@
                         <p class="text-lg font-semibold">
                             Muito conteúdo com séries, filmes, infantis, documentários e muito mais. E ainda assista os maiores lançamentos recém saídos do cinema no <span class="font-bold">SKY PLAY</span> onde e quando quiser.
                         </p>
-                        <div class="flex place-content-end" >
+                        <!-- <div class="flex place-content-end" >
                             <a class="flex place-items-center text-lg text-sky hover:grayscale-[60%]" href="">Saiba Mais <i class="fas fa-arrow-right px-2"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -180,21 +181,21 @@
 
                    <div class="w-full md:grid md:grid-cols-3 gap-x-20">
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/mcafee.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/mcafee.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 McAfee Anti-vírus
                             </h3>
                             <p class="text-grey-700 italic ">O McAfee é mais do que apenas uma proteção contra vírus, é mais tranquilidade para navegar na internet!</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/skeelo.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/skeelo.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Leitura onde e quando você quiser
                             </h3>
                             <p class="text-grey-700 italic ">Com a plataforma de leitura Skeelo, você tem acesso aos títulos mais vendidos nas livrarias diretamente do seu celular.</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-7/12"src="assets/images/playkids.png" alt="" srcset="">
+                            <img class="w-7/12"src="assets/images/playkids.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Ensino e diversão na palma da mão
                             </h3>
@@ -231,21 +232,21 @@
 
                    <div class="w-full md:grid md:grid-cols-3 gap-x-24 ">
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-2/12"src="assets/images/sky_tv_pre_pago_antena.png" alt="" srcset="">
+                            <img class="w-2/12"src="assets/images/sky_tv_pre_pago_antena.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Adquira o equipamento SKY
                             </h3>
                             <p class="text-grey-700 italic ">Após o pagamento, o equipamento é seu pra sempre. Saiba mais sobre nossas antenas.</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-2/12"src="assets/images/sky_tv_pre_pago_economia.png" alt="" srcset="">
+                            <img class="w-2/12"src="assets/images/sky_tv_pre_pago_economia.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Escolha uma recarga
                             </h3>
                             <p class="text-grey-700 italic ">Recargas com seus canais favoritos a partir de R$ 18,90.</p>
                         </div>
                         <div class="w-full flex flex-col place-items-center text-center gap-y-3">
-                            <img class="w-2/12"src="assets/images/sky_tv_inteligente.png" alt="" srcset="">
+                            <img class="w-2/12"src="assets/images/sky_tv_inteligente.png" alt="Assine SKY - SKY TV" srcset="">
                             <h3 class="text-lg font-semibold">
                                 Aproveite a programação
                             </h3>
@@ -264,31 +265,31 @@
                 <div class="px5 flex w-full py-10">
                    <h1 class="w-full text-2xl text-center font-semibold">Se você já possui alguma antena, adquira os equipamentos SKY</h1>
                </div>
-               <div class="px5 flex w-full">
+               <div class="px5 flex w-full md:flex-row flex-col gap-y-5">
 
                     <div class="flex flex-col w-full md:w-4/12 ml-auto place-items-center text-center gap-y-8">
                         <div>
-                            <img class="m-auto" src="assets/images/sky_tv_decodificador_hd.png" alt="">
+                            <img class="m-auto" src="assets/images/sky_tv_decodificador_hd.png" alt="Assine SKY - SKY TV">
                             <h2 class="text-2xl">Equipamento HD</h2>
                         </div>
                         <p>Decoder e controle</p>
                         <div>
                             <p>12x sem juros de <br><span class="font-bold text-5xl">R$ 9,90</span></p>
                         </div>
-                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%]"href="">EU QUERO</a>
+                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%] cursor-pointer" onclick="toggleModal()">EU QUERO</a>
                         
                     </div>
 
                     <div class="flex flex-col w-full md:w-4/12 mr-auto place-items-center text-center gap-y-8">
                         <div class="">
-                            <img class="m-auto" src="assets/images/sky_tvconforto_decodificador.png" alt="">
+                            <img class="m-auto" src="assets/images/sky_tvconforto_decodificador.png" alt="Assine SKY - SKY TV">
                             <h2 class="text-2xl">SKY Conforto - Equipamento HD</h2>
                         </div>
                         <p>Com 02 anos de programação no Equipamento</p>
                         <div>
                             <p>12x sem juros de <br><span class="font-bold text-5xl">R$ 37,41</span></p>
                         </div>
-                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%]"href="">EU QUERO</a>
+                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%] cursor-pointer" onclick="toggleModal()">EU QUERO</a>
                         
                     </div>
                </div>
@@ -297,29 +298,29 @@
                <div class="px5 flex w-full py-10">
                    <h1 class="w-full text-2xl text-center font-semibold">Se você já possui alguma antena, adquira os equipamentos SKY</h1>
                </div>
-               <div class="px5 flex w-full">
+               <div class="px5 flex w-full md:flex-row flex-col gap-y-5">
                     <div class="flex flex-col w-full md:w-4/12 ml-auto place-items-center text-center gap-y-8">
                         <div>
-                            <img class="m-auto" src="assets/images/sky_tv_kit_hd.png" alt="">
+                            <img class="m-auto" src="assets/images/sky_tv_kit_hd.png" alt="Assine SKY - SKY TV">
                             <h2 class="text-2xl">Kit HD</h2>
                         </div>
                         <p>Antena, decoder e controle</p>
                         <div>
                             <p>12x sem juros de <br><span class="font-bold text-5xl">R$ 14,90</span></p>
                         </div>
-                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%]"href="">EU QUERO</a>
+                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%] cursor-pointer" onclick="toggleModal()">EU QUERO</a>
                         
                     </div>
                     <div class="flex flex-col w-full md:w-4/12 mr-auto place-items-center text-center gap-y-8">
                         <div>
-                            <img class="m-auto" src="assets/images/sky_tvconforto_kithd.png" alt="">
+                            <img class="m-auto" src="assets/images/sky_tvconforto_kithd.png" alt="Assine SKY - SKY TV">
                             <h2 class="text-2xl">SKY Conforto - Kit HD</h2>
                         </div>
                         <p>Com 02 anos de programação no Equipamento</p>
                         <div>
                             <p>12x sem juros de <br><span class="font-bold text-5xl">R$ 41,58</span></p>
                         </div>
-                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%]"href="">EU QUERO</a>
+                        <a class="bg-sky px-10 text-white py-2 rounded-3xl font-semibold hover:grayscale-[50%] cursor-pointer" onclick="toggleModal()">EU QUERO</a>
                         
                     </div>
                </div>
@@ -344,7 +345,7 @@
                         
                     </div>
                     <div class="w-full md:w-5/12 md:px-5">
-                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="" srcset="">
+                        <img class="w-full" src="assets/images/sky_tv_sky_play_2.png" alt="Assine SKY - SKY TV" srcset="">
                     </div>
                 </div>
             </div>
