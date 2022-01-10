@@ -651,5 +651,6 @@
     </main>
     
     <?php include ('includes/footer.html'); ?>
+    <!-- Developed by Ruben Fabio github.com/rubenfabio -->
 </body>
 </html>

@@ -5,9 +5,9 @@ $(document).ready(function () {
   //using jquery map
   $(me).map(function (idx, elem) {
     // console.log($(elem).attr('target'));
-    if (url.includes($(elem).attr('target'))) {
+    if (url.includes($(elem).attr('href'))) {
       //   console.log('active');
-      $(elem).addClass('active');
+      $(elem).toggleClass('active');
     } else {
       //   console.log('No');
     }

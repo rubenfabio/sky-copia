@@ -148,8 +148,307 @@
            </div>
 
         </section>
+        <section class="bg-sky-grey-100">
+            <div class="container">
+                <div class="flex-col flex px-5 py-14 gap-y-5">
+                    <h2 class="font-semibold text-3xl">DESTAQUES <i class="fa fa-angle-double-right" aria-hidden="true"></i></h2>
+
+                    <div class="md:w-2/12 w-6/12 bg-post" onclick="toggleModal3()">
+                        <div class="w-full h-full post hvr-sweep-to-top">
+                            
+                            SKY TV - Pré Pago
+                        </div>
+                    </div>
+                    <div class="flex place-content-center">
+                    <button class="px-4 border ring border ring-gray-500  ring-offset-0" onclick="showVermaisdestaques()" >VER MAIS</button>
+                    </div>
+                    <p class="font-semibold text-sm">Os valores anunciados no site são válidos para compras efetuadas via cartão de crédito. Consulte preços para demais formas de pagamento. Oferta válida de 01/03/2021 até 31/03/2021.</p>
+                    <div id="vermaisdestaques" class="hidden text-sm">
+                        <p>
+                            <strong>PRÉ-PAGO</strong>&nbsp;(valores dos equipamentos para
+                            pagamento à vista): O valor do FLEX FÁCIL HD é de R$ 118,80; do FLEX
+                            KIT HD é de R$ 178,80; O SKY PRÉ-PAGO FLEX vem apenas com o canal do
+                            cliente e é necessário adquirir uma recarga do SKY Pré-Pago. FLEX
+                            FÁCIL: o produto Flex Fácil não contém a antena receptora de sinais.
+                            O decodificador presente neste produto é compatível com antenas SKY
+                            que já estejam previamente instaladas no local, desde que em boas
+                            condições. A SKY não se responsabiliza nem garante a compatibilidade
+                            entre seus equipamentos e antenas não certificadas pela SKY. O valor
+                            do SKY Conforto Equipamento HD com 2 anos de programação (sem
+                            antena, um mês de recarga Smart e vinte e três meses de recarga
+                            Digital) é de R$ 449,00; do SKY Conforto KIT HD com 2 anos de
+                            programação (com antena, um mês de recarga Smart e vinte e três
+                            meses de recarga Digital) é de R$ 499,00. Equipamento de sinal
+                            digital reciclado, com 1 ano de garantia. Valores referentes à
+                            antena de 60 cm. A análise de viabilidade técnica é feita pela Rede
+                            Credenciada e será cobrada uma taxa de instalação a partir de R$
+                            80,00 (para o produto Conforto). Dentro do período de 12 meses
+                            contratado, o usuário deverá atualizar o seu cadastro pelo telefone
+                            106 11 para manter o direito do recebimento de sinal. RECARGAS:
+                            recargas disponíveis para clientes que já possuam SKY PRÉ-PAGO. Os
+                            canais HD do PAY-PER-VIEW não estão disponíveis para o produto
+                            Pré-Pago. A recarga ADVANCED é a única que tem canais HD e somente
+                            está disponível para clientes que possuem equipamento decodificador
+                            HD e aparelho HDTV. Consulte o regulamento da “Recarga Programada”
+                            no site&nbsp;https://www.sky.com.br/sky-pre-pago. SKY Play: clientes
+                            Pré Pago podem acessar o conteúdo SKY Play exclusivamente através do
+                            App Minha SKY e do site skyplay.sky.com.br. Para acessar o conteúdo
+                            do SKY Play, clientes Pré Pago devem ter uma recarga ativa
+                            contratada, exceto a recarga Digital que não é elegível ao
+                            benefício."
+                        </p>
+                        <p>
+                            <strong>PÓS-PAGO:&nbsp;</strong>Valores aplicados no site somente
+                            para pagamentos à vista, para pagamento a prazo o valor aumentará em
+                            R$10,00. Produtos com pagamento à vista possuem 50% de desconto no
+                            1º mês e condições comerciais de acordo com o Produto e método de
+                            pagamento escolhido.
+                        </p>
+                        <p>
+                            Contratação dos serviços sujeita a prévia análise de crédito.
+                            Mensalidades sujeitas a reajuste em 12 meses com base no IGP-M,
+                            contado da data de sua contratação. Oferta sujeita à viabilidade
+                            técnica e à disponibilidade do equipamento em estoque. A análise de
+                            viabilidade técnica e a instalação são realizadas pelo credenciado
+                            da SKY de forma gratuita.
+                        </p>
+                        <p>
+                            <strong>SKY MEDIA CENTER:</strong>&nbsp;o SMC é composto por 4
+                            equipamentos conectados entre si através de Wi-Fi e senha – 1
+                            principal e 3 adicionais. O valor não terá alteração ainda que não
+                            utilizados os 4 equipamentos. Na troca das caixas DVR pelo SMC, os
+                            conteúdos gravados serão apagados. Os canais de conteúdo adulto
+                            estarão desbloqueados em todas as caixas. Para bloqueá-los, ative o
+                            Controle dos Pais. Equipamentos cedidos em regime de comodato
+                            somente para clientes que concordarem com a permanência mínima de 12
+                            (doze) meses, a multa pelo não cumprimento será de R$ 3.500,00,
+                            proporcionalmente aos meses restantes do Compromisso de Permanência
+                            Mínima. O cliente pode optar por comprar o equipamento. Valor do
+                            equipamento: R$ 3.500,00. Com base no histórico assistido, o SMC
+                            poderá gravar automaticamente recomendações de séries e programas
+                            recorrentes. Todas as marcas SKY e qualquer propriedade intelectual
+                            são de propriedade da SKY International AG e usadas pela SKY Brasil
+                            Serviços Ltda. mediante licença. Para mais informações, consulte o
+                            site assine.sky.com.br ou entre em contato pelo SAC: 10611 ou, para
+                            deficientes auditivos ou de fala, 0800 701 1200.
+                        </p>
+                        <p>
+                            <strong>POLÍTICA TAXA DE ADESÃO (Pós-pago)</strong>&nbsp;Valor da
+                            Taxa de adesão para PACOTES a prazo é de R$ 100,00 e para COMBOS a
+                            prazo é de R$ 200,00, com pagamento no ato da compra via cartão de
+                            crédito.
+                        </p>
+                        <p>
+                            <strong>PREMIERE:</strong>&nbsp;a transmissão dos jogos em SD ou HD
+                            está sujeita à disponibilidade da programadora detentora dos
+                            direitos de entrega do sinal de transmissão à SKY. A SKY não se
+                            responsabiliza por eventuais falhas de transmissão, bem como por
+                            possíveis alterações nas datas e/ou horário dos jogos.
+                        </p>
+                        <p>
+                            <strong>CANAIS:</strong>&nbsp;a quantidade de canais em SD inclui os
+                            canais complementares, cujas transmissões são mera liberalidade da
+                            SKY, e está sujeita a alteração independentemente da validade deste
+                            material. Os canais em HD tem transmissão simultânea em versão SD.
+                        </p>
+                        <p>
+                            <i>
+                            Os canais destinados a TV Cidadania, TV Comunitária, TV Assembleia
+                            e TV Universitária estão reservados para futuro lançamento, a
+                            serem definidos segundo a regulamentação. Para aquisição dos 8
+                            canais HBO Max em formato HD será cobrado o valor adicional de R$
+                            5,90. Para aquisição dos 06 canais Telecine em formato HD será
+                            cobrado o valor adicional de R$ 9,90.&nbsp;
+                            <b>Canais Abertos e Obrigatórios Gratuitos:&nbsp;</b>Canais que
+                            não integram o preço do pacote e que podem deixar sua programação
+                            a qualquer momento.
+                            </i>
+                        </p>
+                        <p>
+                            <b>
+                            A análise de viabilidade técnica e instalação são feitas pela rede
+                            credenciada e não será cobrado nenhum valor referente a este
+                            serviço. Equipamentos opcionais (fora da composição do pacote
+                            contratado) devem ser instalados no mesmo endereço do principal
+                            conforme possibilidade técnica e televisores disponíveis.
+                            Equipamentos adicionais estão sujeitos a cobranças de valores
+                            adicionais e sua quantidade também varia de acordo com o produto
+                            SKY adquirido. Os valores das mensalidades são: R$ 46,90 para o
+                            Zapper (HD) e R$ 65,90 para o Plus (HD com recurso de gravação).
+                            Os equipamentos HDTV possuem somente entrada HDMI. O modelo TV
+                            aberta dos equipamentos HD recebe sinal digital e HD de até 10
+                            canais abertos, dependendo da região. Equipamentos cedidos em
+                            regime de comodato, sem custo, somente para novos clientes que
+                            aceitarem o compromisso de permanência mínima de 12 meses. A multa
+                            pelo não cumprimento da permanência mínima é de R$ 599,00 para o
+                            equipamento Digital e de R$ 1.299,00 para os equipamentos HD. Será
+                            abatido da multa de permanência mínima o valor proporcional ao
+                            período de permanência no plano. Venda do equipamento, sem
+                            compromisso de permanência mínima: Digital por R$ 599,00; HD por
+                            R$ 900,00; e HD Plus por R$ 1.499,00.
+                            </b>
+                            &nbsp;Na compra dos equipamentos HD, HD Plus ou Digital, será
+                            cobrado R$ 10,00/mês pelo licenciamento de software. Na compra do HD
+                            Plus, será cobrado também R$ 11,00/mês referente ao sistema de
+                            gravação.
+                        </p>
+                        <p>
+                            <strong>BANDA LARGA</strong>: será cobrado um valor referente à taxa
+                            de adesão, pago à SKY. A instalação está sujeita à análise técnica
+                            realizada pelo credenciado da SKY de forma gratuita. Para consultar
+                            os valores, acesse o site. Mensalidades sujeitas a reajuste em 12
+                            meses com base no IGP-M, contado da data de sua contratação. Modem
+                            com Wi-Fi cedido em regime de comodato somente para clientes que
+                            concordarem com a permanência mínima de 12 meses, a multa pelo não
+                            cumprimento será de R$ 900,00. O cliente poderá optar pela compra do
+                            equipamento no valor de R$ 900,00. A velocidade de acesso e tráfego
+                            da internet pode sofrer variações decorrentes de fatores externos. A
+                            utilização da SKY Banda Larga por mais de um dispositivo eletrônico
+                            com conexão à internet, simultaneamente, poderá acarretar variação
+                            de desempenho. Caso um dos serviços (TV por Assinatura ou Banda
+                            Larga) seja cancelado, o remanescente respeitará a tabela vigente do
+                            produto. Para verificar a disponibilidade da Banda Larga ou obter
+                            mais informações,&nbsp;
+                            <a
+                            href="https://assine.sky.com.br/disponibilidade-banda-larga"
+                            rel="nopener noreferrer"
+                            >
+                            clique aqui
+                            </a>
+                            . Caso, após a contratação do serviço de TV por assinatura Pós-Pago
+                            ou Banda Larga, seja constatado, pelo credenciado, a inviabilidade
+                            técnica, o valor já pago pela taxa de adesão será estornado no meio
+                            de pagamento realizado. A Globo está disponível apenas em algumas
+                            praças. Para ver a lista completa&nbsp;
+                            <a
+                            href="https://assine.sky.com.br/disponibilidade-globo"
+                            rel="nopener noreferrer"
+                            >
+                            clique aqui
+                            </a>
+                            . Instalação e assistência técnica conforme contrato e regulamento
+                            disponíveis no site&nbsp;sky.com.br. Condições válidas para novas
+                            aquisições. Consulte as condições completas para todo
+                            Brasil&nbsp;clicando aqui.
+                        </p>
+                        <p>
+                            <strong>POLÍTICA DE CANCELAMENTO:</strong>&nbsp;Para entender os
+                            processos do seu pedido ou efetuar o cancelamento, ligue para nosso
+                            Serviço de Atendimento ao Consumidor 10611
+                        </p>
+                        <p>
+                            O consumidor terá a opção de contratar serviços de assistência
+                            técnica de forma avulsa ou por intermédio dos planos de assistência
+                            denominados Serviço de Assistência Premium. Para assinantes SKY Pós
+                            Pago o valor de cada visita técnica é de R$55,00, pago à SKY. Caso
+                            haja contratação da Assistência técnica Premium será cobrado o valor
+                            de R$ 19,00 mensais, ou R$180,00 anuais, pago à SKY.
+                        </p>
+                        <p>
+                            <a
+                            href="https://www.sky.com.br/documents/1407842/42538051/CONDI%C3%87%C3%95ES+GERAIS+DE+ASSINATURA.pdf/7919f121-c629-a504-7e9a-b71e39ec5f6a?_ga=2.152941820.419660931.1594833938-437379184.1588887187"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o contrato de adesão.
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.sky.com.br/documents/1407842/36800949/Condi%C3%A7%C3%B5es+Gerais-de-Assinatura-v.final-julho-2020.pdf/94edeb15-8f22-f006-6ffe-c3f4c799cb7c?t=1595013164813?viewfile=true">
+                            Veja o contrato de adesão - Serviço de valor adicionado.
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="https://www.sky.com.br/documents/1407842/36800949/Pol%C3%ADtica+de+Privacidade.pdf/6314357c-42ef-2cc4-bf79-dea9e93b771f?viewfile=true"
+                            rel="nopener noreferrer"
+                            >
+                            Veja a política de privacidade.
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="https://www.sky.com.br/documents/1407842/42538051/Compromisso-de-Permanencia-Minima-2.pdf/e9d67d23-4e83-abae-09cb-44bc4cfc8c12"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o contrato de permanência mínima.
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="http://digitalapi.sky.com.br/akamai/assine/regulamento/REGULAMENTO-DA-OFERTA.pdf?_ga=2.241079235.1598132357.1580738495-1789642756.1579545814"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o regulamento da degustação de 3 meses de HBO MAX
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="https://www.sky.com.br/documents/1407842/42538051/Regulamento-SKY-Controle.pdf/160077d0-b423-37d5-b39d-b9da093fd206"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o regulamento do produto "Controle"
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="http://digitalapi.sky.com.br/akamai/assine/contrato/regulamento-new-master-2.pdf?_ga=2.219676633.1598132357.1580738495-1789642756.1579545814"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o regulamento do produto "New master II
+                            </a>
+                            "
+                        </p>
+                        <p>
+                            <a
+                            href="http://digitalapi.sky.com.br/akamai/assine/contrato/Regulamento-HBO30dias260517.pdf?_ga=2.219676633.1598132357.1580738495-1789642756.1579545814"
+                            rel="nopener noreferrer"
+                            >
+                            Veja o regulamento da promoção SKY PRÉ PAGO + 30 DIAS HBO
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="https://www.sky.com.br/sky-pre-pago/documentos-juridicos"
+                            rel="nopener noreferrer"
+                            >
+                            "Consulte regulamentos dos serviços/promoções do pré pago"
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                            href="http://digitalapi.sky.com.br/akamai/assine/anatel/LineupLegadosAssine.xlsx?_ga=2.214430551.1598132357.1580738495-1789642756.1579545814"
+                            rel="nopener noreferrer"
+                            >
+                            Clique aqui
+                            </a>
+                            &nbsp;e veja os pacotes da SKY que não são mais comercializados.
+                        </p>
+                        <p>
+                            <a
+                            href="https://campanhas.sky.com.br/ofertas/ofertas.html"
+                            rel="nopener noreferrer"
+                            >
+                            Clique aqui
+                            </a>
+                            &nbsp;e baixe a planilha de comparação de ofertas e serviços da SKY.
+                            O documento é disponibilizado pela SKY para comparação das
+                            informações relativas às suas ofertas de serviços, em atendimento ao
+                            art. 48 da Resolução nº 632/2014 da Anatel. A utilização inadequada
+                            de tais informações não é de responsabilidade da SKY.
+                        </p>
+                        <p>
+                            Todas as marcas SKY e qualquer propriedade intelectual inserida
+                            nelas são de propriedade da SKY International AG e usadas pela SKY
+                            Serviços de Banda Larga Ltda. mediante licença.
+                        </p>
+                        </div>
+                </div>
+            </div>
+       </section>
     </main>
 
     <?php include("includes/footer.html") ?>
+    <script src="assets/js/jquery.js"></script>
+    <!-- Developed by Ruben Fabio github.com/rubenfabio -->
 </body>
 </html>

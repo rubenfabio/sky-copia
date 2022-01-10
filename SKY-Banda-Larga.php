@@ -317,5 +317,11 @@
     </main>
 
     <?php include("includes/footer.html") ?>
+    <script src="assets/js/jquery.js"></script>
+
+
+
+
+<!-- Developed by Ruben Fabio github.com/rubenfabio -->
 </body>
 </html>
